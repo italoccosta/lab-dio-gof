@@ -3,12 +3,14 @@ package lab.dio.gof.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import lab.dio.gof.model.Cliente;
 import lab.dio.gof.model.ClienteRepository;
 import lab.dio.gof.model.Endereco;
 import lab.dio.gof.model.EnderecoRepository;
 
+@Service
 public class Implementacao implements ClienteService {
 
     @Autowired

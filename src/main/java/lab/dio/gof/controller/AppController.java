@@ -16,7 +16,7 @@ import lab.dio.gof.model.Cliente;
 import lab.dio.gof.service.ClienteService;
 
 @RestController
-@RequestMapping("clientes")
+@RequestMapping("/clientes")
 public class AppController {
 
     @Autowired
